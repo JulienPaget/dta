@@ -11,18 +11,13 @@ import javax.ws.rs.NotFoundException;
 public class PersonDatabase {
 
     List<Person> persons;
+    fffffffffffff
 
     @PostConstruct
     public void init() {
         persons = Arrays.asList(
                 new Person("Penny"), 
-                new Person("Leonard"), 
-                new Person("Sheldon"), 
-                new Person("Amy"), 
-                new Person("Howard"), 
-                new Person("Bernadette"), 
-                new Person("Raj"), 
-                new Person("Priya"));
+
     }
 
     public Person[] currentList() {
